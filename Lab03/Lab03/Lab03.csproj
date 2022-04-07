@@ -46,14 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Lab03_Bai1_Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Lab03_Bai1_Client.Designer.cs">
+      <DependentUpon>Lab03_Bai1_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03_Bai1_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03_Bai1_Server.Designer.cs">
+      <DependentUpon>Lab03_Bai1_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03_Bai2_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03_Bai2_Server.Designer.cs">
+      <DependentUpon>Lab03_Bai2_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nav.Designer.cs">
+      <DependentUpon>Nav.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lab03_Bai1_Client.resx">
+      <DependentUpon>Lab03_Bai1_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03_Bai1_Server.resx">
+      <DependentUpon>Lab03_Bai1_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03_Bai2_Server.resx">
+      <DependentUpon>Lab03_Bai2_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nav.resx">
+      <DependentUpon>Nav.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

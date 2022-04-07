@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Lab03
 {
-    public partial class Lab03_Bai1_Client : Form
+    public partial class Nav : Form
     {
-        public Lab03_Bai1_Client()
+        public Nav()
         {
             InitializeComponent();
+        }
+
+        private void btnServe2_Click(object sender, EventArgs e)
+        {
+            Lab03_Bai2_Server server = new Lab03_Bai2_Server();
+            server.ShowDialog();
         }
     }
 }

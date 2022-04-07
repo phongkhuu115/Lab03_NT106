@@ -1,6 +1,6 @@
 ﻿namespace Lab03
 {
-    partial class Form1
+    partial class Lab03_Bai1_Client
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Lab03_Bai1_Client
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(546, 267);
+            this.Name = "Lab03_Bai1_Client";
+            this.Text = "Lab03_Bai1_Client";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

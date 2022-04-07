@@ -1,0 +1,14 @@
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\bin\Debug\Lab03.exe.config
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\bin\Debug\Lab03.exe
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\bin\Debug\Lab03.pdb
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.AssemblyReference.cache
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.SuggestedBindingRedirects.cache
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Client.resources
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Server.resources
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai2_Server.resources
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.Nav.resources
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.Properties.Resources.resources
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateResource.cache
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.exe
+C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.pdb
