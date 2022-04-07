@@ -34,29 +34,31 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(457, 13);
+            this.button1.Location = new System.Drawing.Point(609, 16);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Listen";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnListen_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 42);
+            this.richTextBox1.Location = new System.Drawing.Point(16, 52);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(520, 285);
+            this.richTextBox1.Size = new System.Drawing.Size(692, 350);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
             // Lab03_Bai2_Server
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 339);
+            this.ClientSize = new System.Drawing.Size(725, 417);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Lab03_Bai2_Server";
             this.Text = "Lab03_Bai2_Server";
             this.ResumeLayout(false);

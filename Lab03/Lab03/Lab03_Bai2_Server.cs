@@ -19,9 +19,10 @@ namespace Lab03
         {
             InitializeComponent();
         }
-
+        
         private void btnListen_Click(object sender, EventArgs e)
         {
+            /*
             int recv;
             byte[] data = new byte[1024];
             IPAddress serverIP = IPAddress.Parse("127.0.0.1");
@@ -39,7 +40,7 @@ namespace Lab03
                 if (recv == 0) break;
                 string rcvMessage = Encoding.ASCII.GetString(data, 0, recv);
                 richTextBox1.Text = rcvMessage;
-            }
+            }*/
         }
     }
 }

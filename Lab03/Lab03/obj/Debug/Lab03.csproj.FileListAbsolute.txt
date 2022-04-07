@@ -12,3 +12,16 @@ C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateRe
 C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
 C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.exe
 C:\Users\P\Desktop\NT106.Lab\Lab03\Lab03\Lab03\obj\Debug\Lab03.pdb
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.AssemblyReference.cache
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Client.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Server.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai2_Server.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Nav.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Properties.Resources.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateResource.cache
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.exe
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.pdb
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\bin\Debug\Lab03.exe.config
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\bin\Debug\Lab03.exe
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\bin\Debug\Lab03.pdb

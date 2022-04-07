@@ -22,5 +22,17 @@ namespace Lab03
             Lab03_Bai2_Server server = new Lab03_Bai2_Server();
             server.ShowDialog();
         }
+
+        private void btnClient1_Click(object sender, EventArgs e)
+        {
+            Lab03_Bai1_Client frmClient1 = new Lab03_Bai1_Client();
+            frmClient1.Show();
+        }
+
+        private void btnServer1_Click(object sender, EventArgs e)
+        {
+            Lab03_Bai1_Server frmServer1 = new Lab03_Bai1_Server();
+            frmServer1.Show();
+        }
     }
 }
