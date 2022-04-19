@@ -40,3 +40,20 @@ F:\LapTrinhMang\Lab03_NT106\Lab03\Lab03\obj\Debug\Lab03.pdb
 F:\LapTrinhMang\Lab03_NT106\Lab03\Lab03\bin\Debug\Lab03.exe.config
 F:\LapTrinhMang\Lab03_NT106\Lab03\Lab03\bin\Debug\Lab03.exe
 F:\LapTrinhMang\Lab03_NT106\Lab03\Lab03\bin\Debug\Lab03.pdb
+D:\NT106\Lab3\git lab3\Lab03\Lab03\bin\Debug\Lab03.exe.config
+D:\NT106\Lab3\git lab3\Lab03\Lab03\bin\Debug\Lab03.exe
+D:\NT106\Lab3\git lab3\Lab03\Lab03\bin\Debug\Lab03.pdb
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.AssemblyReference.cache
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Client.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai1_Server.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai2_Server.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai3_Client.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai3_Server.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai4_Client.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai4_Server.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Nav.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.Properties.Resources.resources
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateResource.cache
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.exe
+D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.pdb

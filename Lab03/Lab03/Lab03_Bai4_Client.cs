@@ -91,6 +91,11 @@ namespace Lab03
             BinaryFormatter formatter = new BinaryFormatter();
             return formatter.Deserialize(stream);
         }
+
+        private void Lab03_Bai4_Client_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

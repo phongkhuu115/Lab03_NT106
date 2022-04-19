@@ -46,5 +46,27 @@ namespace Lab03
             Lab03_Bai4_Client form = new Lab03_Bai4_Client();
             form.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Nav_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTCPServer_Click(object sender, EventArgs e)
+        {
+            Form tcpServer = new Lab03_Bai3_Server();
+            tcpServer.Show();
+        }
+
+        private void btnTCPClient_Click(object sender, EventArgs e)
+        {
+            Form tcpClient = new Lab03_Bai4_Client();
+            tcpClient.Show();
+        }
     }
 }
