@@ -23,21 +23,40 @@ namespace Lab03
         public Lab03_Bai3_Client()
         {
             InitializeComponent();
-            Connect();
         }
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            string s = "Hello server!" + "\n";
-            client.Send(Encoding.UTF8.GetBytes(s));
+            try
+            {
+                TcpClient tcpClient = new TcpClient();
+
+                // 1. Ket noi
+                tcpClient.Connect("127.0.0.1", 8080);
+                Stream stream = tcpClient.GetStream();
+                MessageBox.Show("Gửi thành công");
+               
+                // 2. Khoi tao message
+                string message = "Hello server";
+                var reader = new StreamReader(stream);
+                var writer = new StreamWriter(stream);
+                writer.AutoFlush = true;
+
+                // 3. Gui message
+                writer.WriteLine(message);                
+                
+                // 4. Dong ket noi
+                stream.Close();
+                tcpClient.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra, vui lòng kiểm tra server");
+            }
         }
 
-        private void Connect()
-        {
-            ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
-            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
-            client.Connect(ipep);
-        }
+    
 
         private void Lab03_Bai3_Client_Load(object sender, EventArgs e)
         {

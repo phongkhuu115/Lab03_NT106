@@ -29,27 +29,30 @@ namespace Lab03
         /// </summary>
         private void InitializeComponent()
         {
-            this.rtbData = new System.Windows.Forms.RichTextBox();
+            this.tbServer = new System.Windows.Forms.RichTextBox();
             this.btnListen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // rtbData
+            // tbServer
             // 
-            this.rtbData.Location = new System.Drawing.Point(31, 43);
-            this.rtbData.Name = "rtbData";
-            this.rtbData.ReadOnly = true;
-            this.rtbData.Size = new System.Drawing.Size(407, 182);
-            this.rtbData.TabIndex = 5;
-            this.rtbData.Text = "";
-            this.rtbData.TextChanged += new System.EventHandler(this.rtbData_TextChanged);
+            this.tbServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbServer.Location = new System.Drawing.Point(41, 53);
+            this.tbServer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbServer.Name = "tbServer";
+            this.tbServer.ReadOnly = true;
+            this.tbServer.Size = new System.Drawing.Size(541, 223);
+            this.tbServer.TabIndex = 5;
+            this.tbServer.Text = "";
+            this.tbServer.TextChanged += new System.EventHandler(this.rtbData_TextChanged);
             // 
             // btnListen
             // 
             this.btnListen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnListen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListen.Location = new System.Drawing.Point(476, 78);
+            this.btnListen.Location = new System.Drawing.Point(635, 96);
+            this.btnListen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnListen.Name = "btnListen";
-            this.btnListen.Size = new System.Drawing.Size(163, 100);
+            this.btnListen.Size = new System.Drawing.Size(217, 123);
             this.btnListen.TabIndex = 4;
             this.btnListen.Text = "Listen";
             this.btnListen.UseVisualStyleBackColor = true;
@@ -57,11 +60,12 @@ namespace Lab03
             // 
             // Lab03_Bai3_Server
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 283);
-            this.Controls.Add(this.rtbData);
+            this.ClientSize = new System.Drawing.Size(920, 348);
+            this.Controls.Add(this.tbServer);
             this.Controls.Add(this.btnListen);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Lab03_Bai3_Server";
             this.Text = "Lab03_Bai3_Server";
             this.ResumeLayout(false);
@@ -70,7 +74,7 @@ namespace Lab03
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox rtbData;
+        private System.Windows.Forms.RichTextBox tbServer;
         private System.Windows.Forms.Button btnListen;
     }
 }

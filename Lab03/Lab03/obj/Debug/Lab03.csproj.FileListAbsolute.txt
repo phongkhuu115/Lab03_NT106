@@ -57,3 +57,7 @@ D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.GenerateResource.cache
 D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
 D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.exe
 D:\NT106\Lab3\git lab3\Lab03\Lab03\obj\Debug\Lab03.pdb
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai3_Client.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai3_Server.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai4_Client.resources
+D:\Baitap\LapTrinhMangCanBan\ThucHanh\Lab3\Lab03\Lab03\obj\Debug\Lab03.Lab03_Bai4_Server.resources

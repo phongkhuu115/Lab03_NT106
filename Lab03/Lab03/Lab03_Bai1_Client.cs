@@ -26,7 +26,7 @@ namespace Lab03
                 UdpClient udpClient = new UdpClient();
                 Byte[] sendBytes = Encoding.ASCII.GetBytes(tbMessage.Text);
                 udpClient.Send(sendBytes, sendBytes.Length, tbIPRemote.Text, int.Parse(tbPort.Text));
-            }catch(Exception ex)
+            }catch(Exception)
             {
                 MessageBox.Show("Vui long nhap IP va Port");
             }

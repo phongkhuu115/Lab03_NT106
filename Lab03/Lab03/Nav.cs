@@ -65,7 +65,7 @@ namespace Lab03
 
         private void btnTCPClient_Click(object sender, EventArgs e)
         {
-            Form tcpClient = new Lab03_Bai4_Client();
+            Form tcpClient = new Lab03_Bai3_Client();
             tcpClient.Show();
         }
     }

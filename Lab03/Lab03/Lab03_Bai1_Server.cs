@@ -27,9 +27,9 @@ namespace Lab03
                 port = int.Parse(tbPort.Text);
                 lbListen.Text = "Listen: ON";
             }
-            catch(Exception ex)
+            catch(Exception)
             {
-                MessageBox.Show("Vui long nhập port");
+                MessageBox.Show("Vui lòng nhập port");
             }
                 UdpClient udpClient = new UdpClient(port);
             while (true)

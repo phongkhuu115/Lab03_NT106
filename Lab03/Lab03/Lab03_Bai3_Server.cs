@@ -24,31 +24,39 @@ namespace Lab03
 
         private void btnListen_Click(object sender, EventArgs e)
         {
-            Button btn = sender as Button;
-            btn.Hide();
-            rtbData.Text = "Server is running on IP: 127.0.0.1, Port: 8080" + "\n";
-            Thread thread = new Thread(new ThreadStart(StartThread));
-            thread.Start();
+            tbServer.Text = "Server running on 127.0.0.1:8080\n";
+            try
+            {
+                IPAddress IPAddress = IPAddress.Parse("127.0.0.1");
+
+                TcpListener tcpListener = new TcpListener(IPAddress, 8080);
+
+                // 1. Khoi dong server
+                tcpListener.Start();
+                tbServer.Text += "New client connected\n";
+
+                Socket socket = tcpListener.AcceptSocket();           
+
+                var stream = new NetworkStream(socket);
+                var reader = new StreamReader(stream);
+                var writer = new StreamWriter(stream);
+                writer.AutoFlush = true;
+                
+                // 2. Nhan message
+                string message = reader.ReadLine();
+                tbServer.Text += message + "\n";
+                
+                // 3. Ngat ket noi
+                stream.Close();
+                socket.Close();
+                tcpListener.Stop();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi");
+            }
         }
 
-        private void StartThread()
-        {
-            byte[] recv = new byte[1024];
-            Socket client;
-            Socket listen = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
-            listen.Bind(ipep);
-            listen.Listen(-1);
-            client = listen.Accept();
-            rtbData.Text += "A new client connected" + "\n";
-            while (client.Connected)
-            {
-                client.Receive(recv);
-                string s = Encoding.UTF8.GetString(recv);
-                rtbData.Text += s + "\n";
-            }
-            listen.Close();
-        }
 
         private void rtbData_TextChanged(object sender, EventArgs e)
         {
