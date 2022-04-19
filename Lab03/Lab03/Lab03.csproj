@@ -64,6 +64,18 @@
     <Compile Include="Lab03_Bai2_Server.Designer.cs">
       <DependentUpon>Lab03_Bai2_Server.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab03_Bai4_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03_Bai4_Client.Designer.cs">
+      <DependentUpon>Lab03_Bai4_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03_Bai4_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03_Bai4_Server.Designer.cs">
+      <DependentUpon>Lab03_Bai4_Server.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nav.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab03_Bai2_Server.resx">
       <DependentUpon>Lab03_Bai2_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03_Bai4_Client.resx">
+      <DependentUpon>Lab03_Bai4_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03_Bai4_Server.resx">
+      <DependentUpon>Lab03_Bai4_Server.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nav.resx">
       <DependentUpon>Nav.cs</DependentUpon>

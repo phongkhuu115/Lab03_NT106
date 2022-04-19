@@ -34,5 +34,17 @@ namespace Lab03
             Lab03_Bai1_Server frmServer1 = new Lab03_Bai1_Server();
             frmServer1.Show();
         }
+
+        private void svBtn4_Click(object sender, EventArgs e)
+        {
+            Lab03_Bai4_Server form = new Lab03_Bai4_Server();
+            form.Show();
+        }
+
+        private void clnBtn4_Click(object sender, EventArgs e)
+        {
+            Lab03_Bai4_Client form = new Lab03_Bai4_Client();
+            form.Show();
+        }
     }
 }
